@@ -35,7 +35,7 @@ Sanny Builder Select Game  **`[sa_mobile]`**
 `0AF2: 1@ = read_float_from_ini "sm.ini"  section "section" key "Int"`
 
 ##### 4. 0AF3 Write FLOAT
-`0AF3: write_float 1@ to_ini_file "sm.ini"  section "section" key "Int"
+`0AF3: write_float 1@ to_ini_file "sm.ini"  section "section" key "Int"`
 
 ##### 5. 0AF4 Read  STRING
 `0AF4: 1@ = read_string_from_ini "sm.ini" section "section" key "Int"`
